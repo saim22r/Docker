@@ -56,7 +56,7 @@ Implementing this correctly can result in the following benefits:
 - `docker rmi <container_name> -f` Delete an image
 - `docker pull <container_name>` download the image
 - `docker ps` Check the containers
-- `docker ps -a` Checking all containers status
+- `docker ps -a` Checking all containers
 - `docker exec -it <id> sh` Enter the container
 - `docker stop ID` Stops the container
 - `docker start ID` Starts the container
