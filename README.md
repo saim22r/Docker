@@ -6,6 +6,7 @@ It  is a tool created by Google and later made open source and transferred to th
 
 ### Containers and VMs
 A container is similar to a Virtual Machine in that both are closed boxes (separated from the host machine) on which to run software. The main difference between a VM and a container is that while a virtual machine simulates the whole operating system on which to run software, a container is only provided with the minimal necessary dependencies to run a specific application, and is therefore much more lightweight and faster, but while trading-off flexibility and scope.
+
 Virtualization enables you to run multiple operating systems on the hardware of a single physical server, while containerization enables you to deploy multiple applications using the same operating system on a single virtual machine or server.
 ### Benefits of using containers
 - Docker is more lightweight
