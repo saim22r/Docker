@@ -1,6 +1,6 @@
 # Docker
 ### What is Docker?
-Docker is a containerisation platform, open source platform, that enables developers to seperate their applications from their infrastructure. It does this by utilising containers.
+Docker is a containerisation platform, open source platform, that enables developers to separate their applications from their infrastructure. It does this by utilising containers.
 Containers images are lightweight, standalone, executable packages of software that include everything needed to run an application: code, runtime, system tools, system libraries and settings.
 It  is a tool created by Google and later made open source and transferred to the Linux foundation. It helps create, modify, delete and otherwise manage containers
 
@@ -15,6 +15,18 @@ A container is similar to a Virtual Machine in that both are closed boxes (separ
 - Integrate with other tools
 - They don't require the whole OS
 
-# Who is using Docker?
+### Who is using Docker?
 - Major companies such as Business Insider, Spotify, Yelp, ADP, eBay, Expedia, Groupon, ING
 - Over 50% of companies are using Docker in 2021
+
+### What is Micro-Services architecture and its benefits?
+Microservices are small apps that are meant to do one thing with as little information as possible.
+They should perform only one task and stopping them should not affect any of the other apps.
+
+The idea behind Micro-Services Architecture is to split your application into smaller inter-connected services. This allows them to be:
+- Highly maintainable and testable
+- Loosely coupled
+- Independently deployable
+- Organised around business capabilities
+
+Implementing this correctly can result in the following benefits.
