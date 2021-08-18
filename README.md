@@ -51,8 +51,7 @@ Implementing this correctly can result in the following benefits:
 # Commands
 - `alias docker = "winpty docker"` Use the following command when facing problems 
 - `docker --version` Check the docker version
-- `docker run <container name>` Download and run directly the docker
-- `docker images` List all images that are stored locally
+- `docker run <container name>` Download and directly run the docker
 - `docker rmi <container_name> -f` Delete an image
 - `docker pull <container_name>` download the image
 - `docker ps` Check the containers
