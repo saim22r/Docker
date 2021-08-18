@@ -59,4 +59,5 @@ Implementing this correctly can result in the following benefits:
 - `docker exec -it <id> sh` Enter the container
 - `docker stop ID` Stops the container
 - `docker start ID` Starts the container
-- `docker cp <source_path> <container_ID>:<destination_path>` Copy file from local host to specified container
+- `docker cp <source_path> <container_ID>:<destination_path>` Copy file from local host to specified container. Example used for the task given below.
+  `docker cp index.html b120ee7eb603:/usr/share/nginx/html` Executed in the index.html file directory
