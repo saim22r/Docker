@@ -49,4 +49,4 @@ Implementing this correctly can result in the following benefits:
 - Micro-Services is a complex solution for complex problems. If you aren't facing complex problems, it can become difficult to handle.
 
 # Commands
-- Use the following command when facing problems `alias docker="winpty docker"`
+- Use the following command when facing problems `alias docker = "winpty docker"`
