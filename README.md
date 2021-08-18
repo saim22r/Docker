@@ -49,4 +49,15 @@ Implementing this correctly can result in the following benefits:
 - Micro-Services is a complex solution for complex problems. If you aren't facing complex problems, it can become difficult to handle.
 
 # Commands
-- Use the following command when facing problems `alias docker = "winpty docker"`
+- `alias docker = "winpty docker"` Use the following command when facing problems 
+- `docker --version` Check the docker version
+- `docker run <container name>` Download and run directly the docker
+- `docker images` List all images that are stored locally
+- `docker rmi <container_name> -f` Delete an image
+- `docker pull <container_name>` download the image
+- `docker ps` Check the containers
+- `docker ps -a` Checking all containers status
+- `docker exec -it <id> sh` Enter the container
+- `docker stop ID` Stops the container
+- `docker start ID` Starts the container
+- `docker cp <source_path> <container_ID>:<destination_path>` Copy file from local host to specified container
